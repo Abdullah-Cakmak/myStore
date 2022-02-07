@@ -1,0 +1,20 @@
+{
+  "short_name": "LC WAIKIKI",
+  "name": "LC WAIKIKI ONLINE STORE",
+  "icons": [
+    {
+      "src": "logo1x.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo2x.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

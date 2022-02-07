@@ -1,0 +1,78 @@
+.ItemListPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  gap: 20px;
+}
+
+.itemListHeaderRow {
+  flex-grow: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.itemListProductCount {
+  text-align: left;
+  font-size: large;
+  font: normal normal medium 18px/22px Rubik;
+  letter-spacing: 0px;
+  color: #61666a;
+  opacity: 1;
+}
+
+.itemListSortContainer {
+  text-align: right;
+  cursor: pointer;
+  position: relative;
+  font: normal normal medium 22px/27px Rubik;
+  letter-spacing: 0px;
+  color: #61666a;
+  opacity: 1;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 300px;
+  z-index: 2;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14);
+  font-weight: bold;
+  text-align: left;
+  color: #42464b;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 2px solid #0047ba;
+  opacity: 1;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 8px 12px;
+}
+
+i {
+  color: #0047ba;
+}
+
+li:hover {
+  background-color: rgba(0, 0, 0, 0.14);
+  cursor: pointer;
+}
+
+.itemListContainer {
+  flex-grow: 32;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 16px;
+}

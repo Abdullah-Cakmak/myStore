@@ -1,0 +1,98 @@
+.Content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.Left {
+    /* Child props */
+    max-width: 1240px;
+    min-width: 644px;
+
+    /* Container props */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: left;
+    padding: 10px;
+    gap: 10px;
+}
+
+.LeftHeadRow {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.basketCount {
+    text-align: left;
+    font: normal normal 500 16px Rubik;
+    letter-spacing: 0px;
+    color: #61666A;
+    opacity: 1;
+}
+
+.backToShopping {
+    text-align: right;
+    font: normal normal 500 16px Rubik;
+    letter-spacing: 0px;
+    color: #0047BA;
+    opacity: 1;
+}
+
+.Right {
+    /* Child props */
+    max-width: 644px;
+
+    /* Container props */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    padding: 20px;
+    gap: 10px;
+
+    /* container style */
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.RightHeader {
+    text-align: left;
+    font: normal normal 500 20px Rubik;
+    letter-spacing: 0px;
+    color: #61666A;
+    opacity: 1;
+}
+
+.RightSubText {
+    text-align: left;
+    width: 568px;
+    font: normal normal 500 14px Rubik;
+    letter-spacing: 0px;
+    color: #61666A;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.RightTotalPrice {
+    text-align: left;
+    width: 568px;
+    font: normal normal bold 20px Rubik;
+    letter-spacing: 0px;
+    color: #0047BA;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
